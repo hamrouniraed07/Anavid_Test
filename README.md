@@ -188,7 +188,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 2. **Launch Jupyter Notebook**:
    ```bash
-   jupyter notebook classifier_project.ipynb
+   jupyter notebook Test.ipynb
    ```
 
 3. **Run all cells**:
