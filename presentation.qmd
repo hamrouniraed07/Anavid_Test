@@ -366,36 +366,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-# ROC Curves {#sec-roc}
-
-## Comparative Analysis
-
-```{python}
-#| fig-width: 10
-#| fig-height: 8
-
-plt.figure(figsize=(10, 8))
-
-models_proba = [
-    ('Logistic Regression', lr_pred_proba, lr_auc),
-    ('Random Forest', rf_pred_proba, rf_auc),
-    ('Gradient Boosting', gb_pred_proba, gb_auc)
-]
-
-for name, proba, auc in models_proba:
-    fpr, tpr, _ = roc_curve(y_test, proba)
-    plt.plot(fpr, tpr, label=f'{name} (AUC = {auc:.3f})', linewidth=2)
-
-plt.plot([0, 1], [0, 1], 'k--', label='Random Classifier', linewidth=2)
-plt.xlabel('False Positive Rate', fontsize=12)
-plt.ylabel('True Positive Rate', fontsize=12)
-plt.title('ROC Curves - Model Comparison', fontsize=14, fontweight='bold')
-plt.legend(loc='lower right', fontsize=11)
-plt.grid(alpha=0.3)
-plt.tight_layout()
-plt.show()
-```
-
 # Feature Importance {#sec-importance}
 
 ## Top Features by Model
