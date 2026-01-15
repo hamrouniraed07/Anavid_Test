@@ -1,0 +1,6 @@
+Task:
+1-	Train a classifier to predict the class: 0 or 1.
+2-	Use F1 score as evaluation metric.
+3-	Feel free to use any programming language you are comfortable with.
+4-	Use any library you are comfortable with.
+5-      Share the code and presentation explaining the details of the code and results.
