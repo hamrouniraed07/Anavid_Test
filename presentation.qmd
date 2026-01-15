@@ -334,9 +334,10 @@ plt.show()
 
 **Temporal Analysis**:
 
-- The best model is identified by the highest F1 score
+- **Gradient Boosting emerges as the best performing model with the highest F1 score**
 - All models show competitive performance
 - Ensemble methods (Random Forest, Gradient Boosting) typically capture non-linear patterns better
+- Gradient Boosting's sequential learning approach effectively captures complex patterns in the data
 
 # Confusion Matrices {#sec-confusion}
 
@@ -427,9 +428,9 @@ This descriptive analysis of the binary classification data has allowed us to hi
 
 **Key Findings**:
 
-- Best performing model identified by F1 score
-- All three models demonstrate competitive performance
-- Feature importance analysis reveals key predictors
+- **Gradient Boosting is the best performing model with the highest F1 score**
+- All three models demonstrate competitive performance, but Gradient Boosting excels in capturing complex relationships
+- Feature importance analysis reveals key predictors across models
 - Cross-validation confirms model stability and generalization
 
 **Recommendations**:
