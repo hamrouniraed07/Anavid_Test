@@ -1,0 +1,12 @@
+{
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/presentation1.html"
+    }
+  ]
+}
