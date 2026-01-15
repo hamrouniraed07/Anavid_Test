@@ -5,8 +5,16 @@
   "trailingSlash": false,
   "routes": [
     {
-      "src": "/",
+      "src": "/presentation.html",
       "dest": "/presentation.html"
+    },
+    {
+      "src": "/presentation1.html",
+      "dest": "/presentation1.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/presentation1.html"
     }
   ]
 }
