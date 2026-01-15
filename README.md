@@ -1,8 +1,13 @@
 # Binary Classification Project - Documentation
 
+> **Note**: This is a test project for Anavid PFE.
+
 ## 📋 Project Overview
 
 This project implements and compares three machine learning classifiers to predict binary class labels (0 or 1) using F1 score as the primary evaluation metric.
+
+### Data Format
+The original dataset was provided in `.xlsx` format and was converted to `.csv` format for easier processing and compatibility with pandas and scikit-learn workflows.
 
 ### Dataset
 - **Size**: 260 samples (after removing header)
