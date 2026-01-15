@@ -1,7 +1,7 @@
 ---
 title: "Binary Classification Analysis"
 subtitle: "Descriptive and Exploratory Study"
-author: "Data Science Team"
+author: "Raed Mohamed Amine Hamrouni"
 date: today
 format:
   html:
